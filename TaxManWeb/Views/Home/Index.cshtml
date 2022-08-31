@@ -1,0 +1,82 @@
+﻿@model TaxManWeb.Models.SalaryReturnModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>What are you being taxed?</h1>
+    <p class="lead">Enter a salary below and see what tax will be paid.</p>
+</div>
+
+<div class="row">
+    <form class="tax-form" method="post">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-md-2" for="ipiSalary">
+                    Salary:
+                </label>
+                <input class="form-control text-box single-line" data-val="true" data-val-number="The field salary must be a number." data-val-required="The salary field is required." id="ipiSalary" name="ipiSalary" type="number" step="0.01" value="">
+                <span class="field-validation-valid text-danger" data-valmsg-for="ipiSalary" data-valmsg-replace="true"></span>
+                <input type="submit" value="Calculate" class="btn btn-default" />
+            </div>
+        </div>
+    </form>
+    @if (Request.HttpMethod == "POST") 
+    {
+        <div class="results-table">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>
+                            Gross salary
+                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => modelItem.dcGrossSal)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Gross tax paid
+                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => modelItem.dcGrossTaxPd)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Net salary
+                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => modelItem.dcNetSal)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Gross monthly salary
+                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => modelItem.dcGrossMonthlySal)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Gross monthly tax paid
+                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => modelItem.dcGrossMonthlyTaxPd)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Gross monthly salary
+                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => modelItem.dcNetMonthlySal)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxManWeb", "TaxManWeb.csproj", "{4DAB8C58-BA75-4397-9359-D34FBAC868EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DAB8C58-BA75-4397-9359-D34FBAC868EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAB8C58-BA75-4397-9359-D34FBAC868EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAB8C58-BA75-4397-9359-D34FBAC868EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAB8C58-BA75-4397-9359-D34FBAC868EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12405B67-DD70-4328-87CB-6AA0591791FA}
+	EndGlobalSection
+EndGlobal
