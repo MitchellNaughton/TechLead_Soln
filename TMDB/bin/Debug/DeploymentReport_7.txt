@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column dcTaxInc1 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18,
+         2) NULL. Data loss could occur.
+       The type for column dcTaxInc2 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18,
+         2) NULL. Data loss could occur.
+       The type for column dcTaxInc3 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18,
+         2) NULL. Data loss could occur.
+       The type for column dcTaxRate1 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL
+         (18, 2) NULL. Data loss could occur.
+       The type for column dcTaxRate2 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL
+         (18, 2) NULL. Data loss could occur.
+       The type for column dcTaxRate3 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL
+         (18, 2) NULL. Data loss could occur.
+
+** User actions
+     Rename
+       [dbo].[tmTax].[dcTaxInc1] (Column)
+       [dbo].[tmTax].[dcTaxInc2] (Column)
+       [dbo].[tmTax].[dcTaxInc3] (Column)
+       [dbo].[tmTax].[dcTaxRate1] (Column)
+       [dbo].[tmTax].[dcTaxRate2] (Column)
+       [dbo].[tmTax].[dcTaxRate3] (Column)
+     Alter
+       [dbo].[tmTax] (Table)
+
+** Supporting actions
+
+The type for column dcTaxInc1 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18, 2) NULL. Data loss could occur.
+The type for column dcTaxInc2 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18, 2) NULL. Data loss could occur.
+The type for column dcTaxInc3 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18, 2) NULL. Data loss could occur.
+The type for column dcTaxRate1 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18, 2) NULL. Data loss could occur.
+The type for column dcTaxRate2 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18, 2) NULL. Data loss could occur.
+The type for column dcTaxRate3 in table [dbo].[tmTax] is currently  FLOAT (53) NULL but is being changed to  DECIMAL (18, 2) NULL. Data loss could occur.
+

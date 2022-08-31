@@ -1,0 +1,12 @@
+C:\Users\mitch\source\repos\TMDB\bin\Debug\TMDB.dacpac
+C:\Users\mitch\source\repos\TMDB\bin\Debug\TMDB.dll
+C:\Users\mitch\source\repos\TMDB\bin\Debug\TMDB.pdb
+C:\Users\mitch\source\repos\TMDB\obj\Debug\TMDB.dll
+C:\Users\mitch\source\repos\TMDB\obj\Debug\TMDB.pdb
+C:\Users\mitch\source\repos\TMDB\obj\Debug\TMDB.sqlprojAssemblyReference.cache
+C:\Users\mitch\source\repos\Solution\TMDB\bin\Debug\TMDB.dacpac
+C:\Users\mitch\source\repos\Solution\TMDB\bin\Debug\TMDB.dll
+C:\Users\mitch\source\repos\Solution\TMDB\bin\Debug\TMDB.pdb
+C:\Users\mitch\source\repos\Solution\TMDB\obj\Debug\TMDB.sqlprojAssemblyReference.cache
+C:\Users\mitch\source\repos\Solution\TMDB\obj\Debug\TMDB.dll
+C:\Users\mitch\source\repos\Solution\TMDB\obj\Debug\TMDB.pdb

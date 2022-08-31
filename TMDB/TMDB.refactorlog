@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="29cbb3a0-9088-45ed-8054-4ad1b7509df9" ChangeDateTime="08/25/2022 10:45:17">
+    <Property Name="ElementName" Value="[dbo].[tmCountry].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tmCountry]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="70445a7f-7771-4146-a813-9333c6f0c787" ChangeDateTime="08/25/2022 10:45:37">
+    <Property Name="ElementName" Value="[dbo].[tmCountry].[id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tmCountry]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="iUid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f84ca73a-ca2e-4ad7-9467-06bcb91b7629" ChangeDateTime="08/25/2022 10:46:22">
+    <Property Name="ElementName" Value="[dbo].[tmTax].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tmTax]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="iUid" />
+  </Operation>
+</Operations>
